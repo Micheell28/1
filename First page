@@ -1,0 +1,62 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+
+<main id="main">
+
+<h1 id="title">Owl Species</h1> 
+<div id="img-div">
+  
+    <img
+      id="image"
+      src="https://i.pinimg.com/originals/4c/a8/61/4ca8617e1ef172babd0208dca73d87a8.jpg"
+      alt="Different species of owl"
+         />
+ <figcaption id="img-caption"> 
+      Heart-Shaped Face Barn Owl
+    </figcaption>
+    
+  <div id="tribute-info">
+  Barn owls (Tytoninae) are one of the two families of
+
+owls, the other being the true owls. They are medium to large
+
+sized with large heart-shaped faces and long legs. They live in
+
+a wide range of habitats from temperate latitudes to the tropics.
+
+They are mostly nocturnal, and generally non-migratory.
+  <a
+        id="tribute-link"
+        href="https://www.thespruce.com/owl-species-list-385440"
+        target="_blank"
+   </a>
+  </div> 
+</main> 
+
+
+
+
+
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
